@@ -1,0 +1,10 @@
+[Unit]
+Description=Display weather in notification bubble every hour
+
+[Timer]
+Unit=weather.service
+OnBootSec=3min
+OnUnitActiveSec=1h
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,10 @@
+[Unit]
+Description=Display weather information
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/toz/Development/GweatherAPI/weatherAPI.sh
+
+[Install]
+WantedBy=default.target
