@@ -249,7 +249,7 @@ gdbus call \
     --object-path /org/freedesktop/Notifications \
     --method org.freedesktop.Notifications.Notify \
     -- \
-    "identifier" \
+    "GWeather Report" \
     "$(echo $NOTIF)" \
     "$(echo $ICON)" \
     "$(echo $NAME)  Weather" \
